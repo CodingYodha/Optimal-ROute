@@ -12,13 +12,9 @@ A Streamlit app that finds a faster driving route between two places in Bengalur
 
 `data_generation.py` creates `synthetic_traffic_data.csv`, a synthetic traffic dataset used in the experiments.
 
-## Results
-
-[TODO: add a screenshot of the map and an example of time saved on one route]
-
 ## How to run
 
-The app needs a TomTom API key and a Gemini API key. [TODO: read both keys from environment variables instead of writing them in `app.py`]
+The app needs a TomTom API key and a Gemini API key.
 
 ```bash
 pip install -r requirements.txt
